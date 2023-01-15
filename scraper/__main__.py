@@ -14,3 +14,8 @@ with open('tests/data/courseblocks/ae301.html') as f:
     c = f.read()
 c = HTMLParser(c)
 Course(c)
+
+with open('tests/data/courseblocks/ae315.html') as f:
+    c = f.read()
+c = HTMLParser(c)
+Course(c)
